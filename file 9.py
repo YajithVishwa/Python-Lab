@@ -1,0 +1,9 @@
+f=open("ex.txt","r")
+h=f.readline()
+j=len(h)-10
+i=f.readline(j)
+g=open("ex8.txt","w")
+g.write(i)
+print(h[len(h)-3])
+f.close()
+g.close()

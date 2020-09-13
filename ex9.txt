@@ -1,0 +1,1 @@
+Python can be treated in a procedural way, an object-orientated way or a functional way.

@@ -1,0 +1,7 @@
+f=open("ex1.txt","w+")
+f.write("yajith\n116+\nsrini\96\sanjay\78")
+h=f.read()
+g=open("ex2.txt","w")
+g.write(h)
+f.close()
+g.close()
